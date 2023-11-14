@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rubbermod:zircon_ore",
+    "rubbermod:zircon_block",
+    "rubbermod:deepslate_zircon_ore"
+  ]
+}

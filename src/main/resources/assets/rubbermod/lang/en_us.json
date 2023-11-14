@@ -1,0 +1,14 @@
+{
+  "item.rubbermod.zircon": "Zircon",
+  "item.rubbermod.raw_zircon": "Raw Zircon",
+  "item.rubbermod.eight_ball": "Eight Ball",
+  "item.rubbermod.dice": "Dice",
+
+  "block.rubbermod.zircon_block": "Block of Zircon",
+  "block.rubbermod.zircon_ore": "Zircon Ore",
+  "block.rubbermod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.rubbermod.jumpy_block": "Jumpy Block",
+  "block.rubbermod.fast_block": "Fast Block",
+
+  "itemGroup.rubbertab": "Zircon Tab"
+}
