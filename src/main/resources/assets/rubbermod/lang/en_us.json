@@ -3,6 +3,8 @@
   "item.rubbermod.raw_zircon": "Raw Zircon",
   "item.rubbermod.eight_ball": "Eight Ball",
   "item.rubbermod.dice": "Dice",
+  "item.rubbermod.diving_mask": "Diving Mask",
+  "item.rubbermod.raw_rubber": "Raw Rubber",
 
   "block.rubbermod.zircon_block": "Block of Zircon",
   "block.rubbermod.zircon_ore": "Zircon Ore",
@@ -10,5 +12,5 @@
   "block.rubbermod.jumpy_block": "Jumpy Block",
   "block.rubbermod.fast_block": "Fast Block",
 
-  "itemGroup.rubbertab": "Zircon Tab"
+  "itemGroup.rubbertab": "Rubber Tab"
 }
