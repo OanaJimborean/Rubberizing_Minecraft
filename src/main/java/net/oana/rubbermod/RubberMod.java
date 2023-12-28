@@ -1,6 +1,8 @@
 package net.oana.rubbermod;
 
+import com.google.common.eventbus.Subscribe;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -10,6 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.oana.rubbermod.block.ModBlocks;
 import net.oana.rubbermod.item.ModItems;
+import net.oana.rubbermod.item.custom.DivingMaskItem;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,7 +28,8 @@ public class RubberMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        //modEventBus.register(DivingMaskItem.class);
+        //modEventBus.addListener(DivingMaskItem::onEntityTick);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
